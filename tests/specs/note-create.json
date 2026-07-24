@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/note create",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Start note creation flow with title/body/tags"
+            }
+          }
+        ],
+        "send": {
+          "text": "/note"
+        }
+      }
+    ]
+  }
+]
